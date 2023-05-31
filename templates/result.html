@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E-Hospital</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    {% if prediction == 1 %}
+
+
+
+    <style>
+        body {
+            font-family: "Gill Sans", sans-serif;
+        }
+
+        .hi {
+            background-color: '#19A7CE';
+        }
+
+        .main {
+            background: rgb(238, 174, 202);
+            background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(207, 101, 139, 1) 100%);
+            /* background-size: cover;
+            background-repeat: no-repeat; */
+        }
+
+        .right {
+            float: right;
+            font-family: "Gill Sans", sans-serif;
+            font-size: 10px;
+            width: 650px;
+            height: 460px;
+            margin-top: 2%;
+            margin-right: 48%;
+            background-color: #E74646;
+            color: white;
+            border-radius: 5px;
+            border: #ED2B2A;
+            border: 5px;
+            border-style: solid;
+            padding: 15px;
+            box-shadow: 0px 8px 16px 0px;
+        }
+
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 3px solid #19A7CE;
+            padding: 10px;
+        }
+
+        .text {
+            font-size: 22px;
+            font-family: system-ui;
+        }
+    </style>
+    </head>
+
+    <body class="main">
+        <div>
+            <nav class="navbar">
+                <h1 style="margin-left:430px; text-shadow: 0px 2px black; font-size:40px; color:white;">⚠ YOU ARE PRONE
+                    TO DIABETES ⚠</h1>
+            </nav>
+        </div>
+        <div>
+
+            <div class="left">
+
+            </div>
+            <div class="right">
+                <center>
+                    <h2 style="font-size:25px;">Precaution To Be Taken</h2>
+                </center>
+                <ul>
+
+                    <li class="text">Be more physically active</li>
+                    <li class="text">Eat healthy plant foods </li>
+                    <li class="text">Schedule regular physicals and eye exams</li>
+                    <li class="text">Keep your vaccines up to date</li>
+                    <li class="text"> Consider a daily aspirin</li>
+                    <li class="text">Skip fad diets and make healthier choices</li>
+                    <li class="text"> Eat healthy fats</li>
+                    <li class="text">Take stress seriously</li>
+                    <li class="text">Keep a strict control on Diet</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+
+        </div>
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {% elif prediction == 0 %}
+
+
+    <style>
+        body {
+            font-family: "Gill Sans", sans-serif;
+        }
+
+        .hi {
+            background-color: '#19A7CE';
+        }
+
+        .main {
+            background-image: url("https://img.freepik.com/premium-photo/world-diabetes-day-awareness-concept-stethoscope-with-blue-ribbon-sugar-test-set_53476-6129.jpg?w=1060");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .right {
+            float: right;
+            font-family: "Gill Sans", sans-serif;
+            font-size: 10px;
+            width: 650px;
+            height: 460px;
+            margin-top: 2%;
+            margin-right: 26%;
+            background-color: #159895;
+            color: white;
+            border-radius: 5px;
+            border: #1A5F7A;
+            border: 5px;
+            border-style: solid;
+            padding: 15px;
+            box-shadow: 0px 8px 16px 0px;
+        }
+
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 5px 2px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 2px solid #146C94;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 3px solid #19A7CE;
+            padding: 10px;
+        }
+
+        .text {
+            font-size: 22px;
+            font-family: system-ui;
+        }
+    </style>
+    </head>
+
+    <body class="main">
+        <div>
+            <nav class="navbar">
+                <h1 style="margin-left:430px; text-shadow: 0px 2px white; font-size:40px; color:#19376D;">YOU ARE NOT
+                    PRONE TO DIABETES</h1>
+            </nav>
+        </div>
+        <div>
+
+            <div class="left">
+
+            </div>
+            <div class="right">
+                <center>
+                    <h2 style="font-size:25px;"> STEPS TO AVOID DIABETES</h2>
+                </center>
+                <ul>
+
+                    <li class="text">Avoid smoking or quit smoking if you smoke</li>
+                    <li class="text">Keep your blood pressure and cholesterol under control </li>
+                    <li class="text">Schedule regular physicals and eye exams</li>
+                    <li class="text">Keep your vaccines up to date</li>
+                    <li class="text"> Consider a daily aspirin</li>
+                    <li class="text">If you drink alcohol, do so responsibly</li>
+                    <li class="text">Pay attention to your feet</li>
+                    <li class="text">Take stress seriously</li>
+                    <li class="text">Keep a strict control on Diet</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+
+        </div>
+
+
+    </body>
+
+
+
+
+
+
+
+    {% endif %}
+
+
+
+
+
+</body>
+
+</html>

@@ -13,7 +13,7 @@ model = pickle.load(open('classifier.pkl', 'rb'))
 def home():
     return render_template('index.html')
 
-@app.route('/predict',methods=['POST'])
+@app.route('/predict',methods=['GET','POST'])
 def predict():
     
     float_features = [float(x) for x in request.form.values()]
